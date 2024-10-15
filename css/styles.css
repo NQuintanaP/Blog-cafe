@@ -38,6 +38,7 @@ a {
 
 h1, h2, h3, h4 {
     font-family: var(--fuenteHeading);
+    line-height: 1.2;
 }
 
 h1 {
@@ -59,6 +60,8 @@ h4 {
 img {
     max-width: 100%;
 }
+
+
 
 /* Utilidades */
 .no-margin {
@@ -93,6 +96,11 @@ img {
     .header__texto {
         margin: 15rem;
     }
+}
+
+.barra {
+    padding-top: 4rem;
+
 }
 
 @media (min-width: 768px){
@@ -168,4 +176,37 @@ img {
 
 .boton--primario {
     background-color: var(--negro);
+}
+
+.boton--cursos {
+    background-color: var(--primario);
+}
+
+.cursos {
+    list-style: none;
+}
+
+.widget-curso {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__info {
+    font-weight: 400;
+}
+
+.widget-curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
