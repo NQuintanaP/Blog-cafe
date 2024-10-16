@@ -210,3 +210,14 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/* sobre nosotros */
+
+@media (min-width: 786px){
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
